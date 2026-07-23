@@ -4,3 +4,5 @@
 
 ! Ask YouTube (Searchbar)
 youtube.com##yt-searchbox [aria-label="Ask YouTube"]
+! Your custom feed
+youtube.com##.yt-chip-cloud-chip-renderer:has-text(Your custom feed)
