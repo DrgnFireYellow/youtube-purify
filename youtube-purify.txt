@@ -1,8 +1,15 @@
 ! Title: YouTube Purify
 
+! ===========
 ! AI Features
-
+! ===========
 ! Ask YouTube (Searchbar)
 youtube.com##yt-searchbox [aria-label="Ask YouTube"]
 ! Your custom feed
 youtube.com##.yt-chip-cloud-chip-renderer:has-text(Your custom feed)
+
+! =======
+! Shelves
+! =======
+youtube.com##ytd-rich-section-renderer
+www.youtube.com##ytd-reel-shelf-renderer
