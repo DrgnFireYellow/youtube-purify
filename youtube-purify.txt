@@ -3,4 +3,4 @@
 ! AI Features
 
 ! Ask YouTube (Searchbar)
-youtube.com##yt-searchbox[aria-label="Ask YouTube"]
+www.youtube.com##yt-searchbox [aria-label="Ask YouTube"]
