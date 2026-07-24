@@ -2,6 +2,11 @@
     "manifest_version": 3,
     "name": "YouTube Purified",
     "version": "1.0",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "youtube-purified@drgnfireyellow.com"
+        }
+    },
     "content_scripts": [
         {
             "matches": ["https://*.youtube.com/*", "http://*.youtube.com/*"],
