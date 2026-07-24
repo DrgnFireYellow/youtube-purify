@@ -1,0 +1,15 @@
+/* AI FEATURES */
+/* Ask YouTube (Searchbar) */
+yt-searchbox [aria-label="Ask YouTube"] {
+    display: none !important;
+}
+
+/* HOMEPAGE */
+/* Non-Filter Chips */
+yt-chip-cloud-chip-renderer[has-icon] {
+    display: none !important;
+}
+/* Shelves */
+ytd-reel-shelf-renderer, ytd-rich-section-renderer {
+    display: none !important;
+}

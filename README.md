@@ -1,2 +1,3 @@
-# youtube-purify
-A uBlock Origin list for various YouTube features that bother me.
+# YouTube Purified
+A broser extension to remove various YouTube features that bother me.
+## Current features
