@@ -3,6 +3,14 @@
 yt-searchbox [aria-label="Ask YouTube"] {
     display: none !important;
 }
+/* Ask YouTube (Search Results Tab) */
+yt-chip-cloud-chip-renderer:has(yt-animated-asset-view-model) {
+    display: none !important;
+}
+/* Ask (Video Player) */
+yt-button-view-model:has([aria-label="Ask"]) {
+    display: none !important;
+}
 
 /* HOMEPAGE */
 /* Non-Filter Chips */
@@ -11,5 +19,20 @@ yt-chip-cloud-chip-renderer[has-icon] {
 }
 /* Shelves */
 ytd-reel-shelf-renderer, ytd-rich-section-renderer {
+    display: none !important;
+}
+
+/* SEARCH RESULTS */
+/* Shelves */
+grid-shelf-view-model {
+    display: none !important;
+}
+
+/* SIDEBAR */
+/* Shorts */
+ytd-mini-guide-entry-renderer:has([href="/shorts/"]) {
+    display: none !important;
+}
+ytd-guide-entry-renderer:has([title="Shorts"]) {
     display: none !important;
 }
