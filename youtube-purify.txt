@@ -5,6 +5,8 @@
 ! ===========
 ! Ask YouTube (Searchbar)
 youtube.com##yt-searchbox [aria-label="Ask YouTube"]
+! "Search or ask a question" placeholder
+youtube.com##.ytSearchboxComponentInput::placeholder:style(color: transparent !important)
 ! Your custom feed
 youtube.com##.yt-chip-cloud-chip-renderer:has-text(Your custom feed)
 
