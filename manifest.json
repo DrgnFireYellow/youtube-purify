@@ -10,7 +10,12 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "youtube-purified@drgnfireyellow.com"
+            "id": "youtube-purified@drgnfireyellow.com",
+            "data_collection_permissions": {
+                "required": [
+                    "none"
+                ]
+            }
         }
     },
     "content_scripts": [
