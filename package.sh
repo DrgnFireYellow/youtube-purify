@@ -1,0 +1,1 @@
+zip -r youtube-purified.zip . -x ".*" -x "__MACOSX" -x "package.sh"
